@@ -6,7 +6,7 @@ num2 = lista;
 contador = 0
 while(contador == 0):
   print("------------------ van ", pasos , " pasos -------------------")
-  num2 = int(num2/2)
+  num2 = int((num2+1)/2)
   varAdivino = num2 + num
 
   print("1. es menor que ", varAdivino)
