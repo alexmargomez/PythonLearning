@@ -25,6 +25,5 @@ while(contador == 0):
     if(varAdivino == numero):
       print("---------- El numero es: ", varAdivino , "se adivino en ", pasos , "pasos -------------")
     else:
-      print("equivocado")
-      contador=0
+      print("Error 404")
   pasos = pasos + 1
