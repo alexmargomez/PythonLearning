@@ -25,8 +25,4 @@ while(contador == 0):
     if(nom==2):
       num = varAdivino
 
-    if(varAdivino == numero):
-        print("---------- El numero es: ", varAdivino , "se adivino en ", pasos , "pasos -------------")
-        contador=1
-
   pasos = pasos + 1
