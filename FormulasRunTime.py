@@ -14,7 +14,7 @@ def init():
     valor = int(input("...Elije una opcion: "))
     cont = opciones(valor)
     time.sleep(1)
-    print(".")
+    print("....................................................................................")
 
 def opciones(v):
   if(v==1):
