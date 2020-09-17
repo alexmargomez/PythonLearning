@@ -14,11 +14,14 @@ def init():
     valor = int(input("...Elije una opcion: "))
     cont = opciones(valor)
     time.sleep(1)
+<<<<<<< HEAD
     print("....................................................................................")
+=======
+    print("..................................................................")
+>>>>>>> 947cdca4ee4f4afaadaf012476b00565476067cb
 
 def opciones(v):
   if(v==1):
-    print("-----------------")
     cant = float(input("Digite el valor : "))
     resl = math.log2(cant)  
     print("El tiempo es de:",resl ," milisegundos")
