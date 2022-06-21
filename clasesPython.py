@@ -5,5 +5,9 @@ class Estudiante():
     def hola(self):
         return "Mi nombre es %s" % self.nombre
 
-e = Estudiante("Alexmar", 25)
-e.hola()
+def run():
+    e = Estudiante("Alexmar", 25)
+    e.hola()
+
+if __name__=='__main__':
+    run()

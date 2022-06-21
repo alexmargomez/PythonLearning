@@ -1,4 +1,3 @@
-
 """Ejercicio 2"""
 def factorial(n):	
 	x = 1
@@ -9,9 +8,15 @@ def factorial(n):
 		x=1
 	return x
 
-numero = int(input("inserta un numero "))
-calculo=factorial(numero)
-print ("El factorial de %s es %s" %(numero,calculo))
+def run():
+	numero = int(input("inserta un numero "))
+	calculo=factorial(numero)
+	print("El factorial de %s es %s" %(numero,calculo))
+
+
+if __name__ == '__main__':
+	run()
+
 
 
 

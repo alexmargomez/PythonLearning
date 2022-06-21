@@ -1,25 +1,6 @@
 import math
 import time
 
-
-def init():
-  cont = 0
-  while(cont==0):
-    print ("--Tiempo de Ejecucion en milisegundos--")
-    print ("   1. Bynary Search (Log2 n)")
-    print ("   2. Simple Search (n)")
-    print ("   3. quicksort (n* log2 n)")
-    print ("   4. selection Sort (n^2)")
-    print ("   otra tecla para salir")
-    valor = int(input("...Elije una opcion: "))
-    cont = opciones(valor)
-    time.sleep(1)
-<<<<<<< HEAD
-    print("....................................................................................")
-=======
-    print("..................................................................")
->>>>>>> 947cdca4ee4f4afaadaf012476b00565476067cb
-
 def opciones(v):
   if(v==1):
     cant = float(input("Digite el valor : "))
@@ -45,5 +26,20 @@ def opciones(v):
     print ("bye...")
     return 1
   
-  
-init()
+def run():
+  cont = 0
+  while(cont==0):
+    print ("--Tiempo de Ejecucion en milisegundos--")
+    print ("   1. Bynary Search (Log2 n)")
+    print ("   2. Simple Search (n)")
+    print ("   3. quicksort (n* log2 n)")
+    print ("   4. selection Sort (n^2)")
+    print ("   otra tecla para salir")
+    valor = int(input("...Elije una opcion: "))
+    cont = opciones(valor)
+    time.sleep(1)
+    print("....................................................................................")
+    print("..................................................................")
+
+if __name__ == '__main__':
+    run()

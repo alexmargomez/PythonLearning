@@ -1,5 +1,6 @@
 
 """Ejercicio 4"""
+	
 def primos():
 	contador = 0
 	for i in range(1,(100+1)):
@@ -12,6 +13,7 @@ def primos():
 			print ("%s es primo" % i)
 	return "la suma de numeros primos entre 0 y 100 es de %s" %contador
 
+
 def pares():
 	contador = 0
 	sumatoria = 0
@@ -21,9 +23,14 @@ def pares():
 			sumatoria = sumatoria + i
 	return "la promedio de numeros pares entre 0 y 100 es de %s" %(sumatoria/contador)	
 		
+def run():
+	print(primos())
+	print(pares())
+	
 
-print (primos())
-print(pares())
+if __name__ == '__main__':
+    run()
+
 
 
 

@@ -17,7 +17,11 @@ def ecuacion(n):
 		pass
 	return contador	
 
-print("1/1!+1/2!+1/3!...1/n!")
-numero = int(input("inserta el numero n:"))
-calculo=ecuacion(numero)
-print ("El resultado de la ecuacion de %s es %s" %(numero,calculo))
+def run():
+	print("1/1!+1/2!+1/3!...1/n!")
+	numero = int(input("inserta el numero n:"))
+	calculo=ecuacion(numero)
+	print ("El resultado de la ecuacion de %s es %s" %(numero,calculo))
+
+if __name__=='__main__':
+	run()

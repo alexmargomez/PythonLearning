@@ -5,13 +5,11 @@ from discord.ext import commands
 bot = commands.Bot(command_prefix='.')
 @bot.command()
 async def elker(ctx):
-    await ctx.send('https://www.xvideos.com/video30404627/enano_chino_se_coje_una_tetona_culona')
+    await ctx.send('https://stackoverflow.com/questions/63348991/how-do-i-mention-user-through-discord-bots-python')
 
 @bot.command()
 async def m(ctx, self):
-    
-    else:
-        await ctx.send(self)
+    await ctx.send(self)
 
 @bot.command()
 async def  s (ctx, message):
